@@ -1,8 +1,8 @@
-module com.example.demo {
+module org.main.workshop11 {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.demo to javafx.fxml;
-    exports com.example.demo;
+    opens org.main.workshop11 to javafx.fxml;
+    exports org.main.workshop11;
 }
