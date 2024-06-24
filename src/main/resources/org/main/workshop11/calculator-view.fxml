@@ -22,10 +22,10 @@
       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button fx:id="OneButton" focusTraversable="false" mnemonicParsing="false" onAction="#TwoButtonPressed" prefHeight="34.0" prefWidth="40.0" text="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Button fx:id="OneButton" focusTraversable="false" mnemonicParsing="false" onAction="#OneButtonPressed" prefHeight="34.0" prefWidth="40.0" text="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
       <Button fx:id="TwoButton" focusTraversable="false" mnemonicParsing="false" onAction="#TwoButtonPressed" prefHeight="34.0" prefWidth="40.0" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
       <Button fx:id="ThreeButton" focusTraversable="false" mnemonicParsing="false" onAction="#ThreeButtonPressed" prefHeight="34.0" prefWidth="40.0" text="3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
-      <Button fx:id="DivisionButton" focusTraversable="false" mnemonicParsing="false" onAction="#ThreeButtonPressed" prefHeight="34.0" prefWidth="40.0" text="÷" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Button fx:id="DivisionButton" focusTraversable="false" mnemonicParsing="false" onAction="#DivisionButtonPressed" prefHeight="34.0" prefWidth="40.0" text="÷" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
       <Button fx:id="ACButton" focusTraversable="false" mnemonicParsing="false" onAction="#ACButtonPressed" prefHeight="34.0" prefWidth="40.0" text="AC" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
          <GridPane.margin>
             <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
